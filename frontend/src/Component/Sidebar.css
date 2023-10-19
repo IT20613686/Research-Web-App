@@ -1,0 +1,32 @@
+.logout {
+    margin-top: 50vh;
+}
+
+.sidebar {
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set height to 100% of viewport height */
+    text-align: center; /* Center text */
+    width: 15%;
+    background: linear-gradient(to bottom, #049cfb, #001061);
+}
+
+.list-group-item.active {
+  background-color: #ffffff;
+  color: #001061;
+  border-color: #001061;
+  font-weight: 500;
+}
+
+.list-group-item:hover {
+  background-color: #ffffff;
+  color: #001061;
+  border-color: #001061;
+}
+
+.list-group-item {
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  font-weight: 500;
+}
